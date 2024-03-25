@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-03-25T18:18:04 IST" name="Default suite" finished-at="2024-03-25T18:18:20 IST" duration-ms="15581">
+    <groups>
+    </groups>
+    <test started-at="2024-03-25T18:18:04 IST" name="Default test" finished-at="2024-03-25T18:18:20 IST" duration-ms="15581">
+      <class name="com.tests.LoginTest">
+        <test-method is-config="true" signature="starttestCase()[pri:0, instance:com.tests.LoginTest@1df8da7a]" started-at="2024-03-25T18:18:04 IST" name="starttestCase" finished-at="2024-03-25T18:18:04 IST" duration-ms="52" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- starttestCase -->
+        <test-method is-config="true" signature="precondition()[pri:0, instance:com.tests.LoginTest@1df8da7a]" started-at="2024-03-25T18:18:05 IST" name="precondition" finished-at="2024-03-25T18:18:13 IST" duration-ms="8619" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- precondition -->
+        <test-method signature="verifyPageTitle()[pri:1, instance:com.tests.LoginTest@1df8da7a]" started-at="2024-03-25T18:18:13 IST" name="verifyPageTitle" finished-at="2024-03-25T18:18:13 IST" duration-ms="49" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPageTitle -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.tests.LoginTest@1df8da7a]" started-at="2024-03-25T18:18:13 IST" name="afterMethod" finished-at="2024-03-25T18:18:13 IST" duration-ms="5" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyPageTitle status=SUCCESS method=LoginTest.verifyPageTitle()[pri:1, instance:com.tests.LoginTest@1df8da7a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="verifylogo()[pri:2, instance:com.tests.LoginTest@1df8da7a]" started-at="2024-03-25T18:18:13 IST" name="verifylogo" finished-at="2024-03-25T18:18:13 IST" duration-ms="122" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifylogo -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.tests.LoginTest@1df8da7a]" started-at="2024-03-25T18:18:13 IST" name="afterMethod" finished-at="2024-03-25T18:18:13 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifylogo status=SUCCESS method=LoginTest.verifylogo()[pri:2, instance:com.tests.LoginTest@1df8da7a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="verifyloginForm()[pri:3, instance:com.tests.LoginTest@1df8da7a]" started-at="2024-03-25T18:18:13 IST" name="verifyloginForm" finished-at="2024-03-25T18:18:13 IST" duration-ms="63" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyloginForm -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.tests.LoginTest@1df8da7a]" started-at="2024-03-25T18:18:13 IST" name="afterMethod" finished-at="2024-03-25T18:18:13 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyloginForm status=SUCCESS method=LoginTest.verifyloginForm()[pri:3, instance:com.tests.LoginTest@1df8da7a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="clickonCreateAccountbotton()[pri:4, instance:com.tests.LoginTest@1df8da7a]" started-at="2024-03-25T18:18:13 IST" name="clickonCreateAccountbotton" finished-at="2024-03-25T18:18:20 IST" duration-ms="6183" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickonCreateAccountbotton -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.tests.LoginTest@1df8da7a]" started-at="2024-03-25T18:18:20 IST" name="afterMethod" finished-at="2024-03-25T18:18:20 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=clickonCreateAccountbotton status=SUCCESS method=LoginTest.clickonCreateAccountbotton()[pri:4, instance:com.tests.LoginTest@1df8da7a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.tests.LoginTest@1df8da7a]" started-at="2024-03-25T18:18:20 IST" name="teardown" finished-at="2024-03-25T18:18:20 IST" duration-ms="435" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="endtestCase()[pri:0, instance:com.tests.LoginTest@1df8da7a]" started-at="2024-03-25T18:18:20 IST" name="endtestCase" finished-at="2024-03-25T18:18:21 IST" duration-ms="923" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endtestCase -->
+      </class> <!-- com.tests.LoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
