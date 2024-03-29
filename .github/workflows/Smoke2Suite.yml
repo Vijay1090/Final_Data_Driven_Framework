@@ -5,8 +5,8 @@ on:
   workflow_dispatch:
     inputs:
       Module:
-        description: Suite for execution
-        default: 'SmokeTestSuite'
+        description: Suite for execution Test
+        default: 'RegressionTest'
         required: true
         type: choice
         options:
