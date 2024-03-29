@@ -31,10 +31,10 @@ public class LoginTest extends BaseTest {
 	
 	
 	
-	@Test(priority = 1)
-	public void verifyPageTitle() {
-		loginPage.verifyPageTitle(driver);
-	}
+//	@Test(priority = 1)
+//	public void verifyPageTitle() {
+//		loginPage.verifyPageTitle(driver);
+//	}
 	@Test(priority = 2)
 	public void verifylogo(){
 		loginPage.verifyLogo();

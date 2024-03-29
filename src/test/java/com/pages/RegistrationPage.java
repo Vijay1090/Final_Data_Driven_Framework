@@ -25,7 +25,7 @@ public class RegistrationPage extends BaseTest {
 	@FindBy(xpath="//input[@id=\"password_step_input\"]") private WebElement passwordTextField;
 	@FindBy(xpath="//select[@id=\"day\"]") private WebElement dayDropdown;
 	@FindBy(xpath = "//select[@id=\"month\"]") private WebElement monthDropdown;
-	@FindBy(xpath="//select[@id=\"y\"]") private WebElement yearDropdown;
+	@FindBy(xpath="//select[@id=\"year\"]") private WebElement yearDropdown;
 	@FindBy(xpath="//div[@class=\"mtm _5wa2 _5dbb\"]/descendant::*/label[text()='Male']") private WebElement genderRedioButton;
 	@FindBy(xpath="//div[@class=\"_1lch\"]/descendant::button") private WebElement signUPButton;
 	
