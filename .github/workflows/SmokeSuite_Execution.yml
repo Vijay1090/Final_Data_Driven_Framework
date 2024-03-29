@@ -34,6 +34,6 @@ jobs:
 
       - name: Started Smoke Tests Execution
         working-directory: Final_Data_Driven_Framework
-        run: 'mvn test -DsuiteXmlFile="Run_UI_Tests.xml"'
+        run: 'mvn test -DsuiteXmlFile="SmokeSuite.xml"'
      
       
