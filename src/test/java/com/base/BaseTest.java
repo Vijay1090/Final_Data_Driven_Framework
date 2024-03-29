@@ -27,6 +27,7 @@ import com.pages.LoginPage;
 import com.pages.RegistrationPage;
 import com.util.BaseUtils;
 
+import io.github.bonigarcia.wdm.WebDriverManager;
 import net.bytebuddy.utility.RandomString;
 
 public class BaseTest {
@@ -40,6 +41,8 @@ public class BaseTest {
 
 
 	public  void initializeBrowser() throws Throwable {
+		WebDriverManager.chromedriver().clearCache();
+		WebDriverManager.chromedriver().setup();
 
 		driver=new ChromeDriver();
 		// logger.info("ChromeBrowser opens successfully ....");
