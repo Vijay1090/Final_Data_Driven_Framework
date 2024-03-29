@@ -33,5 +33,5 @@ jobs:
       
 
     - name: Build and Test with Maven
-      working-directory: 
+      working-directory: D:\a\Final_Data_Driven_Framework\Final_Data_Driven_Framework
       run: mvn test -DsuiteXmlFile=SmokeSuite.xml
