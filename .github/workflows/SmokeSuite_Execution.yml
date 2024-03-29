@@ -1,4 +1,4 @@
-name: Run Events Smoke Tests on DEV
+name: Run Smoke Tests on DEV
 'on':
   workflow_dispatch:
     inputs:
@@ -33,7 +33,7 @@ jobs:
           maven-version: 3.8.2
 
       - name: Started Smoke Tests Execution
-        working-directory: Final_Data_Driven_Framework
+        working-directory: D:\a\Final_Data_Driven_Framework\Final_Data_Driven_Framework
         run: 'mvn test -DsuiteXmlFile="SmokeSuite.xml"'
      
       
