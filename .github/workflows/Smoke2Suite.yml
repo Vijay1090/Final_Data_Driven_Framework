@@ -1,0 +1,44 @@
+name: Daily CI/CD Pipeline
+
+on:
+
+  workflow_dispatch:
+    inputs:
+      Module:
+        description: Suite for execution Test
+        default: 'RegressionTest'
+        required: true
+        type: choice
+        options:
+          - SmokeTest
+          - RegressionTest
+
+jobs:
+  build:
+    runs-on: windows-latest
+    
+    steps:
+    - name: Set up JDK 11
+      uses: actions/setup-java@v2
+      with:
+        java-version: '11'
+        distribution: 'adopt'
+
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Set up Maven
+      uses: actions/setup-java@v2
+      with:
+        java-version: '11'
+        distribution: 'adopt'
+        maven-version: '3.8.4'
+
+    - name: Download ChromeDriver
+    - uses: browser-actions/setup-chrome@latest
+    - run: chrome --version
+      
+
+    - name: Build and Test with Maven
+      working-directory: D:\a\Final_Data_Driven_Framework\Final_Data_Driven_Framework
+      run: mvn test -DsuiteXmlFile=SmokeSuite.xml
