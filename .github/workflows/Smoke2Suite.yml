@@ -2,9 +2,16 @@ name: Daily CI/CD Pipeline
 
 on:
 
-  push:
-    branches:
-      - main
+  workflow_dispatch:
+    inputs:
+      Module:
+        description: Suite for execution
+        default: 'SmokeTestSuite'
+        required: true
+        type: choice
+        options:
+          - SmokeTest
+          - RegressionTest
 
 jobs:
   build:
