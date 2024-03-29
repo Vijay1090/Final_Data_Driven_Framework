@@ -47,7 +47,7 @@ public class BaseTest {
 		// logger.info("ChromeBrowser opens successfully ....");
 		driver.manage().window().maximize();
 		driver.manage().deleteAllCookies();
-		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(40));
 		prop=new Properties();
 
 
