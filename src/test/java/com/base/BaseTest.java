@@ -41,8 +41,7 @@ public class BaseTest {
 
 
 	public  void initializeBrowser() throws Throwable {
-		WebDriverManager.chromedriver().clearCache();
-		WebDriverManager.chromedriver().setup();
+		
 
 		driver=new ChromeDriver();
 		// logger.info("ChromeBrowser opens successfully ....");
