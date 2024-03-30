@@ -20,7 +20,7 @@ public class BaseUtils {
 	
 	public static String getTestData(int rowIndex, int cellIndex) throws Throwable, IOException {
 		
-		FileInputStream file=new  FileInputStream("C:\\DataDriven_Framework\\git\\Final_Data_Driven_Framework\\src\\main\\java\\com\\testData\\FaceBookDataSanjay.xlsx");
+		FileInputStream file=new  FileInputStream(System.getProperty("user.dir")+"\\src\\main\\java\\com\\testData\\FaceBookDataSanjay.xlsx");
 		String data = WorkbookFactory.create(file).getSheet("Sheet1").getRow(rowIndex).getCell(cellIndex).getStringCellValue();
 		return data;
 	}
